@@ -53,8 +53,8 @@ petForm.addEventListener('submit', async (e) => {
     if (error) {
         displayError();
     } else {
-        console.log(response.data);
-        // location.assaign('/');
+        // console.log(response.data);
+        location.assign('/');
     }
 });
 
